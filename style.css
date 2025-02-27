@@ -1,0 +1,46 @@
+*{
+padding: 0; 
+margin: 0; 
+box-sizing: border-box;
+}
+body{
+background: linear-gradient(to right, rgba(255, 56, 56, 0.915), rgb(158, 10, 158));
+}
+
+form{
+	display: flex;
+	justify-content: space-around;
+	align-items:center;
+	margin: 0 auto;
+	gap: 5px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: rgb(255, 255, 255) solid 5px;
+	padding: 25px 0;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+
+}
+#leaderBoard{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	padding: 25px;
+	margin: 0 auto;
+	gap: 10px;
+}
+
+.father{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 25px;
+	padding: 50v;
+	border: solid;
+
+}
+.actions span{
+	gap: 20px;
+	padding: 1.5rem;
+	border: solid ;
+	
+}
